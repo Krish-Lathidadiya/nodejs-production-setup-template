@@ -1,0 +1,9 @@
+# Auto-convert text files to LF on commit
+* text=auto
+
+# Ensure specific file types always use LF endings
+*.js text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+*.mjs text eol=lf
+*.ts text eol=lf
